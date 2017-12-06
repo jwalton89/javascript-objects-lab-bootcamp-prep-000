@@ -1,8 +1,6 @@
 var recipes = {breakfast: 'oatmeal', lunch: 'chipotle', dinner: 'chinese food'}
 var Objects = recipes
 var object = recipes
-var key = 'launch'
-var value = 'cava'
 var newObj = Object.assign({}, recipes)
 
 function updateObjectWithKeyAndValue(object, key, value) {
